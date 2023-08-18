@@ -21,7 +21,7 @@ public class TestRunner {
     public static void showReport(){
         try {
             BrowserActions.closeBrowser();
-            String[] cmd = {"cmd.exe", "/c", " node book_stay-report.js"};
+            String[] cmd = {"cmd.exe", "/c", " node src/test/resources/book_stay-report.js"};
             Runtime.getRuntime().exec(cmd);
         } catch (IOException exception) {
             exception.printStackTrace();

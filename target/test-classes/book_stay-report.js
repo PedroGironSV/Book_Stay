@@ -1,5 +1,5 @@
 const report = require("multiple-cucumber-html-reporter");
-const json = require("./test/report/cucumber_report.json");
+const json = require("../../../Execution_Report/cucumber_report.json");
 
 function formatDate(){
     const date = new Date(json[0].elements[0].start_timestamp);
