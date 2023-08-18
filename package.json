@@ -1,0 +1,17 @@
+{
+  "name": "book_stay",
+  "version": "1.0.0",
+  "description": "**Book a stay - Web Automation Project**",
+  "main": "book_stay-report.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mvn test"
+  },
+  "author": "Pedro Girón",
+  "license": "ISC",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^3.2.0"
+  }
+}
